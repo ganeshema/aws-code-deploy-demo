@@ -30,5 +30,5 @@ phases:
 artifacts:
   files:
     - imagedefinitions.json
-    - target/aws-code-deploy-demo.jar
+    - target/aws-code-deploy.jar
 
