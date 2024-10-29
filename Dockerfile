@@ -1,4 +1,4 @@
-FROM openjdk:22
+FROM openjdk:21
 WORKDIR /app
 EXPOSE 8080
 COPY ./target/aws-code-deploy.jar /app
