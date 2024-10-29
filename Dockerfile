@@ -10,4 +10,4 @@ EXPOSE 8080
 COPY ./target/aws-code-deploy.jar aws-code-deploy.jar
 
 # Set the entry point to run the Spring Boot application
-ENTRYPOINT ["java", "-jar", "aws-code-deploy.jar"]
+CMD ["java", "-jar", "aws-code-deploy.jar"]
