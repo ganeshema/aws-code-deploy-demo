@@ -7,7 +7,7 @@ FROM openjdk:21
 EXPOSE 8080
 
 # Copy the Spring Boot JAR file from the target directory to the working directory
-COPY target/aws-code-deploy.jar aws-code-deploy.jar
+COPY ./target/aws-code-deploy.jar aws-code-deploy.jar
 
 # Set the entry point to run the Spring Boot application
 ENTRYPOINT ["java", "-jar", "/app/aws-code-deploy.jar"]
