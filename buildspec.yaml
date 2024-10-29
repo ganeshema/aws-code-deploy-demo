@@ -1,5 +1,10 @@
 version: 0.2
 
+env:
+  variables:
+    JAVA_HOME: "/usr/lib/jvm/java-21"  
+    PATH: "$JAVA_HOME/bin:$PATH"
+
 phases:
   pre_build:
     commands:
