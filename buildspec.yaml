@@ -3,7 +3,7 @@ version: 0.2
 
   pre_build:
     commands:
-      - mvn clean install
+      - echo Installing Maven
       - echo Logging in to Amazon ECR...
       - aws --version
       - REPOSITORY_URI=474668420332.dkr.ecr.us-east-1.amazonaws.com/ganeshgc-registry
